@@ -25,6 +25,15 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
+
+header a{
+  color: {{ site.link-col }};
+}
+header a:hover,
+header a:focus{
+  color: {{ site.hover-col }};
+}
+
 a {
   color: {{ site.link-col }};
 }
